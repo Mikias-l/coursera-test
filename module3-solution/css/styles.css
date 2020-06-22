@@ -1,0 +1,109 @@
+.navbar{
+	border:2px solid black;
+	border-radius: 0px;
+	background-color: gray;
+	color: black;
+}
+.navbar-brand{
+	font-size: 35px;
+	color: black;
+	padding-left: 25px;
+	font-family: "Comic san MS", cursive, san-serif;
+
+}
+.navbar-brand:hover{
+	color: white;
+}
+.nav{
+	margin: 0;
+	padding: 0;
+}
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+.text-center{
+	text-align: center;
+	color: black;
+	font-family: "Comic san MS", cursive, san-serif;
+	font-weight: bold;
+	font-size: 40px;.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+	margin-bottom: 20px;
+}
+.li{
+	box-sizing: border-box;
+	width: 100px;
+}
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+.row{
+	margin: 10px;
+	text-align: justify;
+}
+.content-area{
+	background-color: gray;
+	color: black;
+	font-family: "Comic san MS", cursive, san-serif;
+	font-size: 16px;
+	font-weight: bold;
+	height: auto;
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: none;
+
+}
+.title-header{
+	font-family: "Comic san MS", cursive, san-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#menuarea{
+	padding: 0;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+
+}
+@media (max-width: 767px) {
+	.content-area{
+	background-color: gray;
+	color: black;
+	font-family: "Comic san MS", cursive, san-serif;
+	font-size: 16px;
+	font-weight: bold;
+	height: auto;
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: none;
+	margin:auto;
+	position: relative;
+}
